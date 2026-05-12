@@ -36,9 +36,4 @@ def search_incruit(keyword, pages):
             
     return jobs
 
-keyword = "파이썬"
-url = f"https://www.jobkorea.co.kr/Search?stext=%ED%8C%8C%EC%9D%B4%EC%8D%AC&tabType=recruit&Page_No=1"
-ur2 = f"https://www.saramin.co.kr/zf_user/search?search_area=main&search_done=y&search_optional_item=n&searchType=search&searchword={keyword}"
 
-response = requests.get(url)
-print(response.text)
